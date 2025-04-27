@@ -170,7 +170,7 @@ function startLevel() {
     //background = this.add.image(425, 425, 'background');
     //background.setDisplaySize(850, 850);
 	
-	background = this.add.image(width/2, height/2, 'background').setDisplaySize((config.height*1552)/2500, config.height);
+	const background = this.add.image(width/2, height/2, 'background').setDisplaySize((config.height*1552)/2500, config.height);
     
     // Reset for new level
     foundCards = 0;

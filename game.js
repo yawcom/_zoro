@@ -342,9 +342,9 @@ function createFindingPhase() {
     // Clear previous elements
     this.children.removeAll(true);
     
-    background = this.add.image(425, 425, 'background');
-    background.setDisplaySize(850, 850);
-
+    //background = this.add.image(425, 425, 'background');
+    //background.setDisplaySize(850, 850);
+	background = this.add.image(this.scale.width/2, this.scale.height/2, 'background');
     // Recreate UI
     createUI.call(this);
     

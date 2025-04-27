@@ -37,8 +37,8 @@ function preload() {
     // Load background image
     this.load.image('background', 'bg.jpg');
     this.load.image('background_Start', 'bgStart.jpg');
-    this.load.image('background_GameOver', 'bgGameOver.jpg');
-    this.load.image('background_Win', 'bgWin.jpg');
+    //this.load.image('background_GameOver', 'bgGameOver.jpg');
+    //this.load.image('background_Win', 'bgWin.jpg');
     this.load.image('copy', 'Copy.png');
     
     // Load all 32 card images
